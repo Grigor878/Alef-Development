@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+@media screen and (max-width: 1280px){
+    .wrapper{
+        padding:  0 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wrapper{
+        padding:  0 15px;
+    }
+}
+
+
+@import "header.scss", "main.scss", "footer.scss"
